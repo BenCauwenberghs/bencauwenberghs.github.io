@@ -251,7 +251,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     color: #fff;
     transition: background 0.5s;
-    transition: scale 0.4s;
+    transition: scale 0.5s;
 }
 .btn:hover{
     background: #ff004F;
