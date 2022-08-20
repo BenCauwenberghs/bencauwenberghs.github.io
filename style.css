@@ -278,3 +278,24 @@ nav ul li a:hover::after{
     border-radius: 10px;
     display: block;
 }
+.layer{
+    padding: 10px 10px;
+    background-color: #ababab;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    transition: background 0.5s;
+}
+.equipment h3{
+    text-align: center;
+}
+.equipment p{
+    text-align: center;
+}
+.layer:hover{
+    background: #ff004F;
+}
+.equipment a{
+    text-decoration: none;
+    color: #fff;
+}
