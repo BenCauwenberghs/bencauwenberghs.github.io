@@ -434,8 +434,6 @@ form btn2 {
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
-
 /* ---------css for small screens------ */
 
 @media only screen and (max-width: 600px){
@@ -449,7 +447,6 @@ form btn2 {
     .header-text h1{
         font-size: 30px;
     }
-=======
 /*Floating Back-To-Top Button*/
 #myBtn {
     background-color: black;
@@ -469,5 +466,4 @@ form btn2 {
 /*On Hover Color Change*/
 #myBtn:hover {
     background-color: #ff004F;
->>>>>>> e448dfb0aa978f10ee22bc1bf00a23e34908b801
-}
+}}
