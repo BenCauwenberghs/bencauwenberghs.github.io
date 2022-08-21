@@ -10,6 +10,10 @@ body {
     color: #fff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #header {
     width: 100%;
     height: 100vh;
@@ -98,6 +102,11 @@ nav ul li a:hover::after {
 .about-col-1 img {
     width: 100%;
     border-radius: 15px;
+    transition: transform .5s ease;
+}
+
+.about-col-1 img:hover {
+    transform: scale(1.02);
 }
 
 .about-col-2 {
@@ -349,24 +358,29 @@ nav ul li a:hover::after {
 }
 
 /* ----------contact------- */
-.contact-left{
+.contact-left {
     flex-basis: 35%;
 }
-.contact-right{
+
+.contact-right {
     flex-basis: 60%;
 }
-.contact-left p{
+
+.contact-left p {
     margin-top: 30px;
 }
-.contact-left p i{
+
+.contact-left p i {
     color: #ff004F;
     margin-right: 15px;
     font-size: 25px;
 }
-.social-icons{
+
+.social-icons {
     margin-top: 30px;
 }
-.social-icons a{
+
+.social-icons a {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
@@ -374,19 +388,25 @@ nav ul li a:hover::after {
     display: inline-block;
     transition: transform 0.5s;
 }
-.social-icons a:hover{
+
+.social-icons a:hover {
     color: #ff004F;
     transform: translateY(-5px);
 }
-.btn.btn2{
+
+.btn.btn2 {
     display: inline-block;
     background: #ff004F;
+    cursor: pointer;
 }
-.contact-right form{
+
+.contact-right form {
     width: 100%;
 
 }
-form input, form textarea{
+
+form input,
+form textarea {
     width: 100%;
     border: 0;
     outline: none;
@@ -397,13 +417,15 @@ form input, form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
-form btn2{
+
+form btn2 {
     padding: 14px 60px;
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
 }
-.copyright{
+
+.copyright {
     width: 100%;
     text-align: center;
     padding: 25px 0;
@@ -412,6 +434,7 @@ form btn2{
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
 
 /* ---------css for small screens------ */
 
@@ -426,4 +449,25 @@ form btn2{
     .header-text h1{
         font-size: 30px;
     }
+=======
+/*Floating Back-To-Top Button*/
+#myBtn {
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 48px;
+    width: 48px;
+    right: 3rem;
+    bottom: 3rem;
+    position: fixed;
+
+}
+
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #ff004F;
+>>>>>>> e448dfb0aa978f10ee22bc1bf00a23e34908b801
 }
