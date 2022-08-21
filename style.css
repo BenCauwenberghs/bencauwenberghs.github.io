@@ -210,6 +210,7 @@ nav ul li a:hover::after {
 .services-list div:hover {
     background: #ff004F;
     transform: translateY(-10px);
+    cursor: pointer;
 }
 
 /* -------portfolio------ */

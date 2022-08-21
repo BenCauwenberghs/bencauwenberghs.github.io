@@ -144,7 +144,7 @@
                         target="_blank">
                         <img src="images/sonya7iii.png">
                         <div class="layer">
-                            <h3>sony A7 iii</h3>
+                            <h3>Sony A7 iii</h3>
                             <p>Camera body</p>
                         </div>
                     </a>
@@ -154,40 +154,42 @@
                         <img src="images/equipementlenzen.png">
                         <div class="layer">
                             <h3>lenses</h3>
-                            <p>sony 24-104mm 4 en sony 50mm 1.8</p>
+                            <p>Sony 24-104mm 4 en Sony 50mm 1.8</p>
                         </div>
                     </a>
                 </div>
-                </a>
-            </div>
-            <div class="equipment">
-                <a href="https://www.zhiyun-tech.com/en/product/detail/70?type=website&page=product_professional&source=list&title=WEEBILL-S" target="_blank">
-                <img src="images/equipmentgimbal.png">
-                <div class="layer">
-                    <h3>Zhiyun Weebill-S</h3>
-                    <p>Camera Gimbal fot steady shots</p>
+
+                <div class="equipment">
+                    <a href="https://www.zhiyun-tech.com/en/product/detail/70?type=website&page=product_professional&source=list&title=WEEBILL-S"
+                        target="_blank">
+                        <img src="images/equipmentgimbal.png">
+                        <div class="layer">
+                            <h3>Zhiyun Weebill-S</h3>
+                            <p>Camera Gimbal fot steady shots</p>
+                        </div>
+                    </a>
                 </div>
+
             </div>
         </div>
-    </div>
 
-    <script>
+        <script>
 
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
 
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
             }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
-            }
-
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-    </script>
+        </script>
 
 
 
