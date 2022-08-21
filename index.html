@@ -17,13 +17,15 @@
         <div class="container">
             <nav>
                 <img src="images/LogoBen.png" class="logo">
-                <ul>
+                <ul class="sidemenu">
                     <li><a href="#top">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Photographer and Videographer</p>
@@ -227,6 +229,19 @@
             }
         </script>
         <button id="myBtn"><a href="#top" style="color: white;"><i class="fa-solid fa-arrow-up"></i></a></button>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
 
 </body>
 
