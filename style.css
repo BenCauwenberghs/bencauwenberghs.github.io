@@ -454,7 +454,7 @@ form btn2 {
 }
 
 /* ---------css for small screens------ */
-nav .fas{
+nav .fas {
     display: none;
 }
 
@@ -471,11 +471,13 @@ nav .fas{
     .header-text h1 {
         font-size: 30px;
     }
-    nav .fas{
+
+    nav .fas {
         display: block;
         font-size: 25px;
     }
-    nav ul{
+
+    nav ul {
         background: #ff004f;
         position: fixed;
         top: 0;
@@ -486,11 +488,13 @@ nav .fas{
         z-index: 2;
         transition: right 0.5s;
     }
-    nav ul li{
+
+    nav ul li {
         display: block;
         margin: 25px;
     }
-    nav ul .fas{
+
+    nav ul .fas {
         position: absolute;
         top: 25px;
         left: 25px;
