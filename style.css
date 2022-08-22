@@ -484,7 +484,7 @@ nav .fas {
 
 @media all and (max-width: 900px), (max-device-width:900px) {
     #header {
-        background-image: url(images/phone-background.png);
+        background-image: url(images/phone-background.png) no-repeat center;
     }
 
     .header-text {
