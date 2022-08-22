@@ -342,6 +342,9 @@ nav ul li a:hover::after {
     width: 100%;
     border-radius: 10px;
     display: block;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    transition: border 0.2s;
 }
 
 .layer {
@@ -369,8 +372,16 @@ nav ul li a:hover::after {
     text-decoration: none;
     color: #fff;
 }
+.equipment img:hover{
+    border: 1px solid #ff004F;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 2px #ff004F inset;
+}
 
 /* ----------contact------- */
+#contact{
+    margin-top: 50px;
+}
 .contact-left {
     flex-basis: 35%;
 }
