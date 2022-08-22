@@ -212,6 +212,7 @@
                             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                             <button type="submit" class="btn btn2">Submit</button>
                         </form>
+                        <span id="msg"></span>
                     </div>
                 </div>
             </div>
@@ -249,18 +250,24 @@
                 sidemenu.style.right = "-200px";
             }
         </script>
-<script>
-    const scriptURL = '<https://script.google.com/macros/s/AKfycbySgPc8oCGSOx0bZSCCKURT7n95qY8Sw7J1S5o6v4MPHe1LpYLwWhNPfVCCgpuMHEWD/exec>'
-    const form = document.forms['submit-to-google-sheet']
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbz5rbXow6odYMCiNKH4nfxBqXqsc1RoS8rg3vYT_JoXEWe1aPKK6Y9QwIIt79Qg1abm/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHtml = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHtml = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
 </body>
 
 </html>
