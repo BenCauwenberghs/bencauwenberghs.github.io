@@ -486,16 +486,10 @@ nav .fas {
     /* #header {
         background-image: url(images/phone-background.jpg);
     } */
-
-    html {
-        background: url(“images/phone-background.jpg;) no-repeat fixed center center transparent;
-        -webkit-background-size: 810px 1440px;
-        -moz-background-size: cover;
+    #wrapper {
+        background: url('images/phone-background.jpg') center center no-repeat fixed;
         background-size: cover;
-        }
-        
-        
-
+    }
     .header-text {
         margin-top: 100%;
         font-size: 16px;
