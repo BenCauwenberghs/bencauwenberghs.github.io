@@ -483,10 +483,18 @@ nav .fas {
 }
 
 @media all and (max-width: 900px), (max-device-width:900px) {
-    #header {
+    /* #header {
         background-image: url(images/phone-background.jpg);
-        background-attachment: scroll;
-    }
+    } */
+
+    html {
+        background: url(“images/phone-background.jpg;) no-repeat fixed center center transparent;
+        -webkit-background-size: 810px 1440px;
+        -moz-background-size: cover;
+        background-size: cover;
+        }
+        
+        
 
     .header-text {
         margin-top: 100%;
