@@ -310,6 +310,16 @@ nav ul li a:hover::after {
     scale: 110%;
 }
 
+/* --see more--- */
+
+.work-list2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+
+
 /* --------equipment------- */
 #equipement {
     padding: 50px 0;
