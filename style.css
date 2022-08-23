@@ -316,7 +316,20 @@ nav ul li a:hover::after {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 50px;
-    margin-top: 50px;
+    margin-top: 15px;
+}
+
+.category{
+    margin-top: 60px;
+    font-size: 20px;
+    text-decoration-line:underline;
+}
+.category i{
+   color: #ff004F;
+}
+i[class^="fa-solid fa-camera"]:before {
+	display: inline-block;
+	text-decoration: none;
 }
 
 
