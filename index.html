@@ -184,7 +184,7 @@
                 <div class="row">
                     <div class="contact-left">
                         <h1 class="sub-title">Contact Me</h1>
-                        <p><i class="fas fa-paper-plane"></i> ben.cauwenberghs@gmail.com</p>
+                        <p><i class="fas fa-paper-plane"></i> benalfycontact@gmail.com</p>
                         <p><i class="fas fa-phone-square-alt"></i> +32 494 99 11 43</p>
                         <div class="social-icons">
                             <a href=""><i class="fa-solid fa-align-justify"></i></a>
@@ -247,9 +247,9 @@
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
                 .then(response => {
-                    msg.innerHtml = "Message sent successfully"
+                    msg.innerHTML = "Message sent successfully"
                     setTimeout(function(){
-                        msg.innerHtml = ""
+                        msg.innerHTML = ""
                     },5000)
                     form.reset()
                 })

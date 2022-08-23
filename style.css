@@ -483,15 +483,9 @@ nav .fas {
 }
 
 @media all and (max-width: 900px), (max-device-width:900px) {
-    /* #header {
+    #header {
         background-image: url(images/phone-background.jpg);
-    } */
-    @supports (-webkit-touch-callout: none) {
-        #wrapper {
-            background: url('images/phone-background.jpg') center top no-repeat scroll;
-            background-size: auto 100vh;
-        }    
-        }
+    }
     .header-text {
         margin-top: 100%;
         font-size: 16px;
