@@ -327,10 +327,7 @@ nav ul li a:hover::after {
 .category i{
    color: #ff004F;
 }
-i[class^="fa-solid fa-camera"]:before {
-	display: inline-block;
-	text-decoration: none;
-}
+
 
 
 /* --------equipment------- */
