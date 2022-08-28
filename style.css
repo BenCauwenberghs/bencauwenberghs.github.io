@@ -392,9 +392,10 @@ nav ul li a:hover::after {
 }
 .extra-word{
     background-color: #262626;
-    padding: 60px;
+    padding: 10px;
     border-radius: 6px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .contact-right {
