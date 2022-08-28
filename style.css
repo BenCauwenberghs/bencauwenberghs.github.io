@@ -324,12 +324,6 @@ nav ul li a:hover::after {
 .category i {
   color: #ff004f;
 }
-.vidforwork {
-  border-radius: 20px;
-  width: 100%;
-  position: relative;
-}
-
 /* --------equipment------- */
 #equipement {
   padding: 50px 0;
@@ -397,7 +391,7 @@ nav ul li a:hover::after {
 }
 .extra-word {
   background-color: #262626;
-  padding: 10px;
+  padding: 20px;
   border-radius: 6px;
   text-align: center;
   margin-top: 20px;
