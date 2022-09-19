@@ -559,8 +559,12 @@ nav .fas {
   }
   .about-col-1 img {
     display: none;
+  }
+  #about {
+    padding: 5px 0;
+    color: #ababab;
+  }
 }
-
 #msg {
   color: #61b752;
   margin-top: -40px;
