@@ -323,11 +323,39 @@ nav ul li a:hover::after {
 
 /* --see more--- */
 
-.work-list2 {
+.work-list-port {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 5px;
-  margin-top: 15px;
+  grid-gap: 0.5rem;
+  margin-top: 1rem;
+}
+.work-list-vert {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 0.5rem;
+  margin-top: 3rem;
+}
+.work-list-hor{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 0.5rem;
+  margin-top: 3rem;
+}
+.work-list-vid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 0.5rem;
+  margin-top: 3rem;
+}
+.work-vid {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  height: 20rem;
+}
+.work {
+  width: auto;
+  height: auto;
 }
 
 .category {
