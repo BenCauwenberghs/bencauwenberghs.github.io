@@ -340,6 +340,7 @@ nav ul li a:hover::after {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 0.5rem;
   margin-top: 3rem;
+image-rendering: optimizeSpeed;
 }
 .work-list-vid{
   display: grid;
