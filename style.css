@@ -344,16 +344,18 @@ image-rendering: optimizeSpeed;
 }
 .work-list-vid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 10fr));
   grid-gap: 0.5rem;
   margin-top: 3rem;
+image-rendering: optimizeSpeed;
 }
-.work-vid {
+
+.work-vid{
   border-radius: 10px;
   position: relative;
   overflow: hidden;
-  height: 20rem;
 }
+
 .work {
   width: auto;
   height: auto;
