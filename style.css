@@ -325,29 +325,27 @@ nav ul li a:hover::after {
 
 .work-list-port {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 0.5rem;
   margin-top: 1rem;
 }
 .work-list-vert {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 0.5rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 .work-list-hor{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 0.5rem;
-  margin-top: 3rem;
-image-rendering: optimizeSpeed;
+  margin-top: 1rem;
 }
 .work-list-vid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 10fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 0.5rem;
-  margin-top: 3rem;
-image-rendering: optimizeSpeed;
+  margin-top: 1rem;
 }
 
 .work-vid{
