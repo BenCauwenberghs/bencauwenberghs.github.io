@@ -50,7 +50,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000000;
+  color: #5f5f5f;
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -113,7 +113,7 @@ nav ul li a:hover::after {
   width: 100%;
   border-radius: 15px;
   transition: transform 0.5s ease;
-  border-radius: 46px;
+  border-radius: 30px;
 background: #e0e0e0;
 box-shadow:  8px 8px 26px #9d9d9d,
              -8px -8px 26px #ffffff;
@@ -125,7 +125,7 @@ box-shadow:  8px 8px 26px #9d9d9d,
 
 .about-col-2 {
   flex-basis: 60%;
-  border-radius: 46px;
+  border-radius: 30px;
   background: #ffffff;
   box-shadow:  8px 8px 26px #b3b3b3,
                -8px -8px 26px #ffffff;
@@ -135,7 +135,7 @@ padding: 30px;
 .sub-title {
   font-size: 60px;
   font-weight: 600;
-  color: #4a4a4a;
+  color: #4e4e4e;
 }
 
 .tab-titles {
@@ -210,7 +210,7 @@ padding: 30px;
   font-weight: 300;
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
-  border-radius: 46px;
+  border-radius: 30px;
     background: #ffffff;
 box-shadow:  8px 8px 26px #b3b3b3,
              -8px -8px 26px #ffffff;
@@ -276,7 +276,7 @@ box-shadow:  8px 8px 26px #b3b3b3,
   border-radius: 10px;
   position: relative;
   overflow: hidden;
-  border-radius: 46px;
+  border-radius: 30px;
 background: #ffffff;
 box-shadow:  8px 8px 26px #b3b3b3,
              -8px -8px 26px #ffffff;
@@ -313,6 +313,7 @@ box-shadow:  8px 8px 26px #b3b3b3,
 .layer1 h3 {
   font-weight: 500;
   margin-bottom: 20px;
+  color: #e0e0e0;
 }
 
 .layer1 a {
@@ -359,32 +360,36 @@ box-shadow:  8px 8px 26px #b3b3b3,
 .work-list-port {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  grid-gap: 0.5rem;
+  grid-gap: 2rem;
   margin-top: 1rem;
 }
 .work-list-vert {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  grid-gap: 0.5rem;
+  grid-gap: 2rem;
   margin-top: 1rem;
 }
 .work-list-hor{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  grid-gap: 0.5rem;
+  grid-gap: 2rem;
   margin-top: 1rem;
 }
 .work-list-vid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  grid-gap: 0.5rem;
+  grid-gap: 2rem;
   margin-top: 1rem;
 }
 
 .work-vid{
-  border-radius: 10px;
   position: relative;
   overflow: hidden;
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow:  8px 8px 26px #b3b3b3,
+               -8px -8px 26px #ffffff;
+  height: 13rem;
 }
 
 .work {
@@ -416,7 +421,7 @@ box-shadow:  8px 8px 26px #b3b3b3,
   width: 100%;
   display: block;
   border: 2px solid #fff;
-  border-radius: 46px;
+  border-radius: 30px;
     background: #ffffff;
 box-shadow:  8px 8px 26px #b3b3b3,
              -8px -8px 26px #ffffff;
@@ -430,15 +435,17 @@ box-shadow:  8px 8px 26px #b3b3b3,
   text-align: center;
 }
 
+
 .equipment a {
   text-decoration: none;
   color: #fff;
 }
 .equipment img:hover {
-  border-radius: 46px;
   background: #ffffff;
-  box-shadow: inset  8px 8px 26px #b3b3b3,
-            inset -8px -8px 26px #ffffff;
+  border-radius: 30px;
+  box-shadow: 8px 8px 26px #ff004f,
+               -8px -8px 26px #ffffff;
+transition: all 0.3s;
 }
 
 /* ----------contact------- */
@@ -447,18 +454,16 @@ box-shadow:  8px 8px 26px #b3b3b3,
 }
 .contact-left {
   flex-basis: 35%;
-
-}
-.extra-word {
-  background-color: #262626;
-  padding: 20px;
-  border-radius: 6px;
-  text-align: center;
-  margin-top: 20px;
 }
 
 .contact-right {
   flex-basis: 60%;
+}
+
+.sub-title h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 .contact-left p {
@@ -484,6 +489,11 @@ box-shadow:  8px 8px 26px #b3b3b3,
   transition: transform 0.5s;
 }
 
+.contact-left h1 {
+color: #4e4e4e;
+
+}
+
 .social-icons a:hover {
   color: #ff004f;
   transform: translateY(-5px);
@@ -504,12 +514,15 @@ form textarea {
   width: 100%;
   border: 0;
   outline: none;
-  background: #262626;
+  background: #4e4e4e;
   padding: 15px;
   margin: 15px 0;
-  color: #fff;
+  color: #4e4e4e;
   font-size: 18px;
-  border-radius: 6px;
+  border-radius: 30px;
+  background: #ffffff;
+box-shadow:  8px 8px 26px #9d9d9d,
+             -8px -8px 26px #ffffff;
 }
 
 form btn2 {
@@ -533,7 +546,6 @@ form btn2 {
 }
 
 #myBtn {
-  background-color: black;
   border: none;
   border-radius: 50%;
   color: white;
@@ -553,7 +565,7 @@ nav .fas {
 
 @media all and (max-width: 900px), (max-device-width: 900px) {
   #header {
-    background-image: url(images/phone-background\(2\).jpg);
+    background-image: url(images/phone-background\(2\).png);
     background-attachment: scroll;
   }
   .header-text {
@@ -608,7 +620,7 @@ nav .fas {
   }
   .tab-links {
     font-size: 20px;
-    margin-right: 20px;
+    margin-right: 0.5rem;
   }
   .contact-left,
   .contact-right {
